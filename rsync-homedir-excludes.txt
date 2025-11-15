@@ -17,6 +17,13 @@ node_modules*
 .git
 .git*
 
+apps/bees
+data/pc_backup
+data/unraid_archive
+data/pc_archive
+
+
+
 ###############################################
 # directories, probably not worth a backup    #
 # (uncomment the files you don't need)        #
