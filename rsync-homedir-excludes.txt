@@ -17,8 +17,8 @@ node_modules*
 .git
 .git*
 
-apps/bees
-apps/label-studio
+apps/bees/*
+apps/label-studio/*
 data/pc_backup
 data/unraid_archive
 data/pc_archive
