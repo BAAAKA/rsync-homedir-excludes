@@ -18,6 +18,7 @@ node_modules*
 .git*
 
 apps/bees
+apps/label-studio
 data/pc_backup
 data/unraid_archive
 data/pc_archive
