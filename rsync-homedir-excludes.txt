@@ -9,6 +9,13 @@
 #    USER=<homedir username here>
 #    rsync -aP --exclude-from=rsync-homedir-excludes.txt /home/$USER/ /media/$USER/linuxbackup/home/$USER/
 
+.venv
+venvs*
+.venv*
+*__pycache__*
+node_modules*
+.git
+.git*
 
 ###############################################
 # directories, probably not worth a backup    #
@@ -32,7 +39,7 @@
 #.twister
 #/twister
 #Applications/eclipse*
-#/Downloads
+/Downloads
 #*Popcorntime*
 #/.aMule
 #/Scribus
@@ -65,16 +72,16 @@
 #/Movies
 #
 ## some history files
-#.python_history
-#.bash_history
-#.zsh_history
-#.mysql_history
+.python_history
+.bash_history
+.zsh_history
+.mysql_history
 #
 ## Python eggs
-#.local/lib/python*
+.local/lib/python*
 #
 ## Python virtual environments
-#PycharmProjects/**/venv
+PycharmProjects/**/venv
 #
 ## Maven local repository
 #/.m2
