@@ -20,8 +20,8 @@ node_modules*
 apps/bees/*
 apps/label-studio/*
 data/pc_backup
-data/unraid_archive
-data/pc_archive
+# data/unraid_archive
+# data/pc_archive
 
 
 
